@@ -1,0 +1,7 @@
+BLOOD TEST REMINDER
+
+This code is for a web page that displays a blood test reminder. The HTML part of the code defines the structure of the web page, including a container with a heading, paragraph, and a countdown element.
+
+The CSS part of the code sets some styling for the web page, such as the background color, container width, and font sizes and colors.
+
+The JavaScript part of the code sets the date of the next blood test, which is on May 1st, 2023, in this case. It then sets up a countdown timer that updates every second to show the time remaining until the next blood test. The countdown is calculated by subtracting the current date and time from the next blood test date and time, and then breaking down the time remaining into days, hours, minutes, and seconds. The result is then displayed in the countdown element of the web page using the innerHTML property.
