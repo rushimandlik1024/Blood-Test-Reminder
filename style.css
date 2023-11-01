@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8e5e5;
+    text-align: center;
+}
+
+.reminder-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f5d9d9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #390202;
+}
+
+.form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e77070;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.reminder-message {
+    font-weight: bold;
+    color: #007bff;
+}
